@@ -1,6 +1,6 @@
 import React from "react";
 import Unity, { UnityContext } from "react-unity-webgl";
-// import '../styles/games1style.css';
+import styles from '../styles/Home.module.css';
 
 const unityContext = new UnityContext({
     loaderUrl: "build/1Area_Shooting.loader.js",
@@ -12,11 +12,11 @@ const unityContext = new UnityContext({
 
 function game1(){
     return(
-        <div>
-            <Unity unityContext={unityContext}
+        <div className={styles.game1}>
+            <Unity unityContext={unityContext} 
             style={{
                 width:'100%',
-                height: '100%'
+                height: '100%',           
             }} />;
 
         </div>

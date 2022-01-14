@@ -1,5 +1,6 @@
 import React from "react";
 import Unity, { UnityContext } from "react-unity-webgl";
+import styles from '../styles/Home.module.css';
 
 const unityContext = new UnityContext({
     loaderUrl: "build/4Volume_Qna.loader.js",
@@ -11,13 +12,14 @@ const unityContext = new UnityContext({
 
 function game4() {
     return (
-        <>
-            <Unity unityContext={unityContext}
-                style={{
-                    width: '100%',
-                    height: '100%',
-                }} />
-        </>
+        <div className={styles.game4}>
+            <Unity unityContext={unityContext} className={styles.screen}
+                // style={{
+                //     width: '1024px',
+                //     height: '768px',
+                // }} 
+                />
+        </div>
     )
 }
 
