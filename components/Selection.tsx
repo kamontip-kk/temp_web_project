@@ -9,13 +9,13 @@ function Selection(){
                 <Link href='/contents'>
                     <a className={styles.card}>
                         <h2>Animation Contents</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        {/* <p>ทบทวนเนื้อหา</p> */}
                     </a>
                 </Link>
                 <Link href='/games'>
                     <a className={styles.card}>
                         <h2>Play Games</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
                     </a>
                 </Link>
             </div>
