@@ -20,7 +20,7 @@
   font-size: 3.5rem;
 }
 
-.Buttons {
+.buttons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,4 +45,9 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+}
+
+/* ------------------ contents -----------------*/
+.contents h1{
+  color: #0070f3;
 }
