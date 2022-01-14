@@ -85,4 +85,31 @@
   .main .title{
     font-size: 2.8rem;
   }
+  .contents h1{
+    font-size: 35px;
+  }
+  .games h2{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px) {
+  .main .title{
+    font-size: 2.4rem;
+  }
+  .card h2{
+    font-size: 20px;
+  }
+  .container{
+    padding: 0;
+  }
+  .contents h1{
+    font-size: 30px;
+  }
+  .contents h2{
+    font-size: 16px;
+  }
+  .main{
+    padding: 0;
+  }
 }
