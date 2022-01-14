@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Link from 'next/link';
 import ReactPlayer from 'react-player';
 import styles from '../styles/Home.module.css';
-import { Modal, Button } from 'antd';
+import { Modal} from 'antd';
 import 'antd/dist/antd.css';
 
-function contents() {
+function Contents() {
     const [modal1, setModal1] = useState(false);
     const [modal2, setModal2] = useState(false);
     const [modal3, setModal3] = useState(false);
@@ -84,4 +84,4 @@ function contents() {
     )
 }
 
-export default contents;
+export default Contents;
