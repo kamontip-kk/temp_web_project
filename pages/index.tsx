@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>
-            Welcome to Maths Phra Dhabos!
+            Welcome to Maths<br/>Phra Dhabos!
         </h1>
         <Selection/>
       </main>  
