@@ -11,11 +11,10 @@ const unityContext = new UnityContext({
     webglContextAttributes:{preserveDrawingBuffer: true},
 });
 
-function game1(){
+function Game1(){
     
     const [progression, setProgression] = useState(0);
     const [isLoaded, setIsLoaded] = useState(false);
-    const [isSpawn, setIsSpawn] = useState('');
 
     useEffect(() => {
         unityContext.on("progress", function (progression) {
@@ -24,17 +23,12 @@ function game1(){
         unityContext.on("loaded", function () {
             setIsLoaded(true);
           });
-        // unityContext.send("RandomItem", "Start");
       
       }, []);
 
     function handleOnClickFullscreen() {
         unityContext.setFullscreen(true);
     }
-
-    // function spawnQuestion() {
-    //     unityContext.send("RandomItem", "Start", 100);
-    // }
 
     return (
         <div className={styles.game1}>
@@ -55,4 +49,4 @@ function game1(){
     )
 }
 
-export default game1;
+export default Game1;
