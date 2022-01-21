@@ -18,11 +18,11 @@ function Contents() {
             <div className={styles.buttons}>
                 <Link href='' >
                     <a className={styles.card} onClick={() => setModal1(true)}>
-                        <h2>สี่เหลี่ยมด้านขนาน</h2>
+                        <h2>รูปสี่เหลี่ยมด้านขนาน</h2>
                     </a>
                 </Link>
                 <Modal
-                    title="สี่เหลี่ยมด้านขนาน"
+                    title="รูปสี่เหลี่ยมด้านขนาน"
                     centered
                     visible={modal1}
                     onOk={() => setModal1(false)}
@@ -36,11 +36,11 @@ function Contents() {
 
                 <Link href=''>
                     <a className={styles.card} onClick={() => setModal2(true)}>
-                        <h2>สี่เหลี่ยมรูปว่าว</h2>
+                        <h2>รูปสี่เหลี่ยมรูปว่าว</h2>
                     </a>
                 </Link>
                 <Modal
-                    title="สี่เหลี่ยมรูปว่าว"
+                    title="รูปสี่เหลี่ยมรูปว่าว"
                     centered
                     visible={modal2}
                     onOk={() => setModal2(false)}
@@ -54,11 +54,11 @@ function Contents() {
 
                 <Link href=''>
                     <a className={styles.card} onClick={() => setModal3(true)}>
-                        <h2>สี่เหลี่ยมขนมเปียกปูน</h2>
+                        <h2>รูปสี่เหลี่ยมขนมเปียกปูน</h2>
                     </a>
                 </Link>
                 <Modal
-                    title="สี่เหลี่ยมขนมเปียกปูน"
+                    title="รูปสี่เหลี่ยมขนมเปียกปูน"
                     centered
                     visible={modal3}
                     onOk={() => setModal3(false)}
@@ -72,11 +72,11 @@ function Contents() {
 
                 <Link href=''>
                     <a className={styles.card} onClick={() => setModal4(true)}>
-                        <h2>สี่เหลี่ยมคางหมู</h2>
+                        <h2>รูปสี่เหลี่ยมคางหมู</h2>
                     </a>
                 </Link>
                 <Modal
-                    title="สี่เหลี่ยมคางหมู"
+                    title="รูปสี่เหลี่ยมคางหมู"
                     centered
                     visible={modal4}
                     onOk={() => setModal4(false)}
